@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { MatButtonModule } from '@angular/material/button';
 
 import { HomeComponent } from './page/home/home.component';
+import { CocktailListComponent } from './page/cocktail-list/cocktail-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    CocktailListComponent
   ],
   imports: [
     BrowserModule,
