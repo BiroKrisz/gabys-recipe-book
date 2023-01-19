@@ -1,1 +1,16 @@
-<p>cocktail-list works!</p>
+<div class="container">
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cocktail of list">
+        <td [routerLink]="['/cocktails/', cocktail.id]">{{ cocktail.name }} </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

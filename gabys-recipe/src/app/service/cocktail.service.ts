@@ -1,3 +1,4 @@
+import { Cocktail } from './../model/cocktail';
 import { i18nMetaToJSDoc } from '@angular/compiler/src/render3/view/i18n/meta';
 import { Injectable } from '@angular/core';
 
@@ -258,6 +259,7 @@ export class CocktailService {
     ]
 
   getAll(): any {
+      this.list.sort((a: Cocktail, b: Cocktail) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
       return this.list
   }
 }
