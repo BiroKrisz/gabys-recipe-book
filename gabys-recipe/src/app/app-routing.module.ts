@@ -2,6 +2,7 @@ import { CocktailListComponent } from './page/cocktail-list/cocktail-list.compon
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './page/home/home.component';
+import { CocktailDetailsComponent } from './page/cocktail-details/cocktail-details.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'cocktails',
     component: CocktailListComponent,
+  },
+  {
+    path: 'cocktails/:id',
+    component: CocktailDetailsComponent,
   },
   {
     path: '**',

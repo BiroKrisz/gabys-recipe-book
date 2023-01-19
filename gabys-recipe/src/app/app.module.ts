@@ -8,12 +8,14 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { HomeComponent } from './page/home/home.component';
 import { CocktailListComponent } from './page/cocktail-list/cocktail-list.component';
+import { CocktailDetailsComponent } from './page/cocktail-details/cocktail-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CocktailListComponent
+    CocktailListComponent,
+    CocktailDetailsComponent
   ],
   imports: [
     BrowserModule,
