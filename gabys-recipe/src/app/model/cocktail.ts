@@ -1,6 +1,10 @@
 export class Cocktail {
   [key: string]: any;
-  id: number = 0;
+  id: string = '';
   name: string = '';
   recipe: string = '';
+  ingredients : string = '';
+  method: string = '';
+  glass: string = '';
+  notes: string = '';
 }

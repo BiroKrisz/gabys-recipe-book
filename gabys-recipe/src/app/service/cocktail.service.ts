@@ -258,7 +258,7 @@ export class CocktailService {
       }
     ]
 
-  getAll(): any {
+  getAll(): Cocktail[] {
       this.list.sort((a: Cocktail, b: Cocktail) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
       return this.list
   }
