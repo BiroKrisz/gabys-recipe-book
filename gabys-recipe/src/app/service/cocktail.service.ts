@@ -164,7 +164,7 @@ export class CocktailService {
       },
       {
         "id": "20",
-        "name": "Gaby's Ginger Mint",
+        "name": "Gaby's Ginger Minj",
         "ingredients": "4cl mango vodka,2cl passionfruit syrup,2cl lime juice,basil leaf,ginger beer",
         "method": "shake&pour everything,fill with ginger beer",
         "glass": "short cocktail glass",
@@ -261,5 +261,9 @@ export class CocktailService {
   getAll(): Cocktail[] {
       this.list.sort((a: Cocktail, b: Cocktail) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
       return this.list
+  }
+
+  getOne(id: string): Cocktail{
+    return this.list.find((drink: Cocktail) => {return drink.id === id})
   }
 }
