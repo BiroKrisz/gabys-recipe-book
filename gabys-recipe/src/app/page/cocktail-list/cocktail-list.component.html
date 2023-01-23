@@ -1,16 +1,22 @@
 <div class="container">
+  <div class="col-lg-8 offset-lg-2">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th> Cocktails </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cocktail of list">
+          <td [routerLink]="['/cocktails/', cocktail.id]">{{ cocktail.name }}
 
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th>Name</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let cocktail of list">
-        <td [routerLink]="['/cocktails/', cocktail.id]">{{ cocktail.name }} </td>
-      </tr>
-    </tbody>
-  </table>
+            <p>
+              {{ cocktail.ingredients }}
+            </p>
+          </td>
 
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>

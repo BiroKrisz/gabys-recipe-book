@@ -45,7 +45,10 @@ html {
   box-sizing: border-box;
 }
 
+p, table, h1, h2, h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 html, body { min-height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
