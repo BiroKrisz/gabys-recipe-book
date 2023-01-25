@@ -7,4 +7,6 @@ export class Cocktail {
   method: string = '';
   glass: string = '';
   notes: string = '';
+  image: string = '';
+  description?: string = '';
 }
