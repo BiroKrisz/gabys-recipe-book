@@ -1,18 +1,27 @@
-<main class="container">
-  <div class="row">
-    <div class="text-center">
-      <div class="card h-100">
-        <h5 class="card-header">{{ drink.name }}</h5>
-        <div class="card-body d-flex flex-column">
-          <h3>
-            {{ drink.ingredients}}
-          </h3>
-          <p class="card-text">
-           {{drink.method}} </p>
-           <p class="card-text">
-            {{drink.notes}} </p>
-          <a routerLink="/cocktails" class="btn btn-primary bg-white text-primary mt-auto">Back</a>
-        </div>
+<main class="container cocktail__container">
+  <div class="row d-flex">
+    <div *ngIf="drink" class="col-8 offset-2">
+      <div class="p-5 text-center">
+        <img class="cocktail__image" [src]="imgUrl"  alt="cocktail">
+      </div>
+      <div class="text-center cocktail__header">
+        <h3>{{drink.name}}</h3>
+        <h3 class="text-muted">{{ drink.description }}</h3>
+      </div>
+
+      <div class="text-center">
+        <h5 class="cocktail__ingredients">Ingredients: {{drink.ingredients}} </h5>
+      </div>
+      <div class="text-center">
+        <h5 class="cocktail__method">Method: {{drink.method}} </h5>
+      </div>
+
+      <div class="text-center">
+        <h5 class="cocktail__notes">Notes: {{drink.notes}} </h5>
+      </div>
+
+      <div class="buttons mt-5 mb-5 col-6 offset-3 text-center">
+        <button routerLink="/cocktails" class="btn btn-dark btn-block">Back</button>
       </div>
     </div>
   </div>

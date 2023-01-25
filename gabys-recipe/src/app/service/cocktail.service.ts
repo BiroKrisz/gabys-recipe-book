@@ -1,5 +1,4 @@
 import { Cocktail } from './../model/cocktail';
-import { i18nMetaToJSDoc } from '@angular/compiler/src/render3/view/i18n/meta';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -21,10 +20,12 @@ export class CocktailService {
       {
         "id": "02",
         "name": "Aperol Spritz",
-        "ingredients": "4cl Aperol,dash of orange juice,6cl prosecco, soda",
-        "method": "first ice,orange juice,aperol,prosecco,soda",
+        "ingredients": "4cl Aperol, dash of orange juice, 6cl prosecco, soda",
+        "method": "builded. First ice, orange juice, aperol, prosecco, soda.",
         "glass": "red wine glass",
-        "notes": "orange wheel inside "
+        "notes": "orange wheel inside",
+        "image": "../../assets/img/aperol.jpg",
+        "description": "A Spritz is a Venetian wine-based cocktail, commonly served as an aperitif in Northeast Italy. It consists of prosecco, digestive bitters and soda water."
       },
       {
         "id": "03",

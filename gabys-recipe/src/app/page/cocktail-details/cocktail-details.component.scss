@@ -1,0 +1,20 @@
+h1, p, h3, h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.7rem
+}
+
+h5, p {
+  font-size: 1rem;
+}
+
+.cocktail__image {
+  min-width: 50%;
+  max-width: 80%
+}

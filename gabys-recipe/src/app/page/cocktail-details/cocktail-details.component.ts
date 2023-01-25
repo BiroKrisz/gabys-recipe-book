@@ -16,6 +16,8 @@ export class CocktailDetailsComponent implements OnInit {
 
   drink: Cocktail = this.cocktailService.getOne(this.route)
 
+  imgUrl: string = this.drink.image ? this.drink.image : "../../assets/img/placeholder.png"
+
   constructor(
     private activatedRoute: ActivatedRoute,
     private cocktailService: CocktailService
@@ -23,5 +25,7 @@ export class CocktailDetailsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
 
 }
