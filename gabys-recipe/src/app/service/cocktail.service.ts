@@ -12,7 +12,7 @@ export class CocktailService {
       {
         "id": "01",
         "name": "Mimosa",
-        "ingredients": "7.5cl champagne,7.5cl orange juice",
+        "ingredients": "7.5cl champagne, 7.5cl orange juice",
         "method": "pour",
         "glass": "champagne glass",
         "notes": "orange wheel as garnish"
@@ -30,23 +30,23 @@ export class CocktailService {
       {
         "id": "03",
         "name": "Mojito/flavored",
-        "ingredients": "3cl white rum,2cl sugar syrup/2cl flavor,4cl lime juice,handful of mint,soda",
-        "method": "first ice,mint,lime&sugar syrup,fill with soda",
+        "ingredients": "3cl white rum, 2cl sugar syrup/2cl flavor, 4cl lime juice, handful of mint, soda",
+        "method": "first ice, mint, lime&sugar syrup, rum, fill with soda",
         "glass": "collins glass",
-        "notes": "mint&lime/fruit as garnish,lime wheel inside"
+        "notes": "mint&lime/fruit as garnish, lime wheel inside"
       },
       {
         "id": "04",
         "name": "Old Fashioned",
         "ingredients": "4 dash Angostura,2ts brown sugar,6 cl Makers Mars",
-        "method": "first mix sugar&bitter,ice,whiskey,stir",
+        "method": "first mix sugar&bitter, ice, whiskey, stir",
         "glass": "old fashioned glass",
         "notes": "don't melt sugar,orange peel as garnish"
       },
       {
         "id": "05",
         "name": "Daiquiri",
-        "ingredients": "6cl white rum,3cl lime juice,2cl sugar syrup(change syrup if flavored)",
+        "ingredients": "6cl white rum, 3cl lime juice, 2cl sugar syrup (change syrup if flavored)",
         "method": "shake&strain",
         "glass": "martini glass",
         "notes": "1/4 lime wheel as garnish"
@@ -54,15 +54,15 @@ export class CocktailService {
       {
         "id": "06",
         "name": "Moscow/London/Tel-Avivi/Jamaican Mule",
-        "ingredients": "4cl vodka/gin/tubi/black rum,2cl lime juice,ginger beer,cucumber slice",
-        "method": "cucumber,ice,lime,alcohol,fill with ginger beer",
+        "ingredients": "4cl vodka/gin/tubi/black rum, 2cl lime juice, ginger beer, cucumber slice",
+        "method": "cucumber, ice, lime, alcohol, fill with ginger beer",
         "glass": "copper mug",
         "notes": "lime wheel&mint as garnish"
       },
       {
         "id": "07",
         "name": "Cosmopolitan",
-        "ingredients": "5cl vodka,2cl cointreau,2cl lime juice,5cl cranberry juice,dash of strawberry syrup",
+        "ingredients": "5cl vodka, 2cl cointreau, 2cl lime juice, 5cl cranberry juice, dash of strawberry syrup",
         "method": "shake&strain",
         "glass": "martini glass",
         "notes": "1/4 lime wheel as garnish"
@@ -70,15 +70,15 @@ export class CocktailService {
       {
         "id": "08",
         "name": "Martini ",
-        "ingredients": "6cl vodka/gin,3cl extra dry martini vermouth,2 dash orange bitter",
-        "method": "ice first then others,stir&strain",
+        "ingredients": "6cl vodka/gin, 3cl extra dry martini vermouth, 2 dash orange bitter",
+        "method": "ice first then others, stir&strain",
         "glass": "martini glass",
         "notes": "lime/orange peel as garnish"
       },
       {
         "id": "09",
         "name": "Margarita/flavored",
-        "ingredients": "6cl tequila,2cl cointreau,4cl lime juice and 2cl simple syrup/flavor",
+        "ingredients": "6cl tequila, 2cl cointreau, 4cl lime juice and 2cl simple syrup/flavor",
         "method": "shake&strain",
         "glass": "margarita glass",
         "notes": "salt/sugar rim and garnish with lime wheel"
